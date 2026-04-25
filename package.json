@@ -1,6 +1,7 @@
 {
   "name": "sbb-mcp",
-  "version": "0.5.1",
+  "version": "0.5.2",
+  "mcpName": "io.github.Fabsbags/sbb-mcp",
   "description": "Independent MCP client for Swiss Federal Railways (SBB/CFF/FFS) — schedules, prices, and ticket links via SBB's SMAPI. Third-party implementation by SwissTrip; not the official SBB MCP.",
   "type": "module",
   "main": "dist/index.js",

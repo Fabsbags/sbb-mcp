@@ -29,7 +29,7 @@ import {
 
 const REMOTE_URL = process.env.SBB_MCP_URL ?? 'https://mcp.swisstrip.app/mcp'
 const NAME = 'sbb-mcp'
-const VERSION = '0.5.1'
+const VERSION = '0.5.2'
 
 async function main(): Promise<void> {
   const headers: Record<string, string> = {}

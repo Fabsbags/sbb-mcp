@@ -1,17 +1,17 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Fabsbags/sbb-mcp",
-  "description": "Independent MCP client for Swiss Federal Railways (SBB/CFF/FFS). Third-party by SwissTrip; not the official SBB MCP.",
+  "description": "Independent SBB/CFF/FFS MCP — schedules, prices, tickets. By SwissTrip; not the official SBB MCP.",
   "repository": {
     "url": "https://github.com/Fabsbags/sbb-mcp",
     "source": "github"
   },
-  "version": "0.5.1",
+  "version": "0.5.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "sbb-mcp",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "transport": {
         "type": "stdio"
       },
