@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Fabsbags/sbb-mcp",
+  "description": "MCP client for the SwissTrip SBB MCP service — schedules, prices, and ticket links for Swiss Federal Railways (SBB/CFF/FFS).",
+  "repository": {
+    "url": "https://github.com/Fabsbags/sbb-mcp",
+    "source": "github"
+  },
+  "version": "0.5.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "sbb-mcp",
+      "version": "0.5.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "SWISSTRIP_TOKEN",
+          "description": "Optional SwissTrip account token for cloud-synced traveler profiles. Mint at https://swisstrip.app/settings/developer.",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "SBB_MCP_URL",
+          "description": "Override the hosted server URL. Default: https://mcp.swisstrip.app/mcp.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
