@@ -1,7 +1,7 @@
 {
   "name": "sbb-mcp",
-  "version": "0.5.0",
-  "description": "MCP client for the SwissTrip SBB MCP service — connect AI assistants to live Swiss Federal Railways (SBB/CFF/FFS) data: schedules, prices, and ticket links.",
+  "version": "0.5.1",
+  "description": "Independent MCP client for Swiss Federal Railways (SBB/CFF/FFS) — schedules, prices, and ticket links via SBB's SMAPI. Third-party implementation by SwissTrip; not the official SBB MCP.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
