@@ -1,0 +1,50 @@
+Copyright (c) 2026 F. Weinhappl / SwissTrip
+All Rights Reserved.
+
+This software and its source code are proprietary and confidential.
+
+No license is granted, express or implied, to use, copy, modify, merge,
+publish, distribute, sublicense, or sell copies of this software, in whole
+or in part, except as explicitly permitted below.
+
+PERMITTED USE
+You may install and run unmodified copies of the published npm package
+("sbb-mcp") solely as a runtime client to connect AI assistants to the
+SwissTrip SBB MCP service hosted at https://mcp.swisstrip.app for
+personal, non-commercial use.
+
+PROHIBITED USE
+The following are not permitted without prior written agreement signed by
+F. Weinhappl on behalf of SwissTrip:
+  - Redistribution, mirroring, or republication of the source code or
+    compiled output, in whole or in part.
+  - Use of the source code, in whole or in part, in any other software,
+    product, or service.
+  - Hosting, operating, or offering a service based on, derived from,
+    or substantially similar to this software.
+  - Reverse engineering, decompilation, or disassembly, except to the
+    extent expressly permitted by mandatory applicable law.
+  - Removal, alteration, or obscuring of this license notice or any
+    copyright, trademark, or attribution notices.
+
+NO WARRANTY
+This software is provided "as is", without warranty of any kind, express
+or implied, including but not limited to the warranties of
+merchantability, fitness for a particular purpose, and non-infringement.
+In no event shall the author or copyright holder be liable for any claim,
+damages, or other liability arising from, out of, or in connection with
+this software or its use.
+
+GOVERNING LAW
+This License shall be governed by and construed in accordance with the
+laws of Switzerland, without regard to its conflict of law provisions.
+Any disputes arising under or in connection with this License shall be
+subject to the exclusive jurisdiction of the courts of Zurich,
+Switzerland.
+
+COMMERCIAL LICENSING
+For commercial licensing, redistribution rights, or any use not covered
+by the permitted use above, contact:
+
+  F. Weinhappl
+  fabsforward2@gmail.com

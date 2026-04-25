@@ -1,0 +1,56 @@
+{
+  "name": "sbb-mcp",
+  "version": "0.5.0",
+  "description": "MCP client for the SwissTrip SBB MCP service — connect AI assistants to live Swiss Federal Railways (SBB/CFF/FFS) data: schedules, prices, and ticket links.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "sbb-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "sbb",
+    "cff",
+    "ffs",
+    "swiss-railways",
+    "swiss-federal-railways",
+    "train",
+    "travel",
+    "switzerland",
+    "timetable",
+    "public-transport",
+    "ai",
+    "claude",
+    "cursor",
+    "model-context-protocol"
+  ],
+  "author": "F. Weinhappl <fabsforward2@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fabsbags/sbb-mcp.git"
+  },
+  "homepage": "https://swisstrip.app",
+  "bugs": {
+    "url": "https://github.com/Fabsbags/sbb-mcp/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  }
+}
