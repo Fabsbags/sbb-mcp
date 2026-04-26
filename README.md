@@ -1,6 +1,6 @@
 # sbb-mcp
 
-MCP client for the SwissTrip SBB MCP service. Connects AI assistants to live Swiss Federal Railways (SBB / CFF / FFS) data: train schedules, station search, ticket prices, and direct ticket purchase links.
+Independent MCP client by SwissTrip — connects AI assistants to Swiss Federal Railways (SBB / CFF / FFS) data: train schedules, station search, ticket prices, and direct ticket purchase links via SBB's SMAPI.
 
 The package is a thin client. All SBB API access, ticketing, and profile sync run on the hosted SwissTrip server at `https://mcp.swisstrip.app/mcp`.
 
