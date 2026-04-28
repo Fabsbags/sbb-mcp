@@ -1,6 +1,6 @@
 {
   "name": "sbb-mcp",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Brand-protective alias for swisstrip-mcp. Independent MCP client by SwissTrip; not the official SBB MCP. Use swisstrip-mcp directly.",
   "type": "module",
   "main": "dist/index.js",
